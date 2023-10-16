@@ -1,0 +1,22 @@
+body {
+    background-color: skyblue;
+
+}
+
+h1 {
+    color: white;
+    text-align: center;
+}
+
+h3 {
+    color: white;
+    size: 50px;
+    text-align: justify;
+    text-align: center;
+}
+
+form {
+    color: white;
+    size: 50px;
+    text-align: justify;
+}

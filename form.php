@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <form action="welcome.html" method="get">
+    <form action="welcome.php" method="post">
         <h1>Buat Account Baru</h1>
     <h3>Sign Up Form</h3>
     <br>
@@ -34,20 +34,20 @@
         <label for="nationality">Nationality</label>
         <br>
             <select id="nationality" name="nationality">
-                <option value="indonesia">Indonesia</option>
-                <option value="america">America</option>
+                <option value="Indonesia">Indonesia</option>
+                <option value="America">America</option>
                 <option value="English">English</option>
             </select>
         
         <br>
         
             <p>Language Spoke</p>
-            <input type="checkbox" id="language1" name="language1" value="Indonesia">
-            <label for="language1">Indonesia</label> <br>
-            <input type="checkbox" id="language2" name="language2" value="English">
-            <label for="language2">English</label> <br>
-            <input type="checkbox" id="language3" name="language3" value="Other">
-            <label for="language3">Other</label> <br>
+            <input type="checkbox" id="language" name="language" value="Indonesia">
+            <label for="language">Indonesia</label> <br>
+            <input type="checkbox" id="language" name="language" value="English">
+            <label for="language">English</label> <br>
+            <input type="checkbox" id="language" name="language" value="Other">
+            <label for="language">Other</label> <br>
        
         <br>
         <p>Bio</p>
